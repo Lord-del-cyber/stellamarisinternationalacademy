@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import { useState } from "react"
-import { Menu, X } from "lucide-react"
+import { GraduationCap, Menu, X } from "lucide-react"
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
@@ -21,9 +21,10 @@ export default function Navigation() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
             <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">SM</span>
+              {/* <span className="text-white font-bold text-lg">SM</span> */}
+              <GraduationCap className="text-white font-bold text-lg" />
             </div>
-            <span className="hidden sm:inline font-heading font-bold text-primary text-lg">Stella Maris</span>
+            <span className="hidden sm:inline font-heading font-bold text-primary text-lg">StellaMarisInt'lAcademy</span>
           </Link>
 
           {/* Desktop Navigation */}
