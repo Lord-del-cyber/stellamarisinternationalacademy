@@ -45,15 +45,15 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li className="flex items-center gap-2">
                 <Phone size={16} />
-                <span>+234 XXX XXX XXXX</span>
+                <span>+234 803 080 1004</span>
               </li>
-              <li className="flex items-center gap-2">
+              <li className="hidden flex items-center gap-2">
                 <Mail size={16} />
-                <span>info@stellamaris.edu.ng</span>
+                <span>stellamaris@gmail.com</span>
               </li>
               <li className="flex items-start gap-2">
                 <MapPin size={16} className="mt-1" />
-                <span>Lagos, Nigeria</span>
+                <span>No. 6 Ifenu Street, off Awka Road, Onitsha Anambra State</span>
               </li>
             </ul>
           </div>
